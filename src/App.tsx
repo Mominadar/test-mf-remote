@@ -23,7 +23,7 @@ function App() {
   });
   return (
     <div>
-      <h1>Remote App Compnent</h1>
+      <h1 ref={componentRef}>Remote App Compnent</h1>
       <p className="read-the-docs">
         This is content from the remote app
       </p>
